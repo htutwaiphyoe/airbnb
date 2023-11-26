@@ -1,0 +1,25 @@
+.Auth {
+    width: 95%;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 2rem auto;
+}
+.Auth h1 {
+    margin-bottom: 1rem;
+}
+.Auth p {
+    font-size: 1.5rem;
+    color: #d47720;
+    cursor: pointer;
+}
+.Error {
+    color: rgb(224, 58, 58) !important;
+}
+@media only screen and (min-width: 600px) {
+    .Auth {
+        width: 50rem;
+        padding: 2rem;
+    }
+}

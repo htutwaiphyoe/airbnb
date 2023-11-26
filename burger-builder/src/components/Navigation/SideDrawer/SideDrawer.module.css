@@ -1,0 +1,56 @@
+.SideDrawer {
+    width: 75%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 200;
+    padding: 2rem;
+    transition: transform 0.2s ease-out;
+    -webkit-transition: transform 0.2s ease-out;
+    -moz-transition: transform 0.2s ease-out;
+    -ms-transition: transform 0.2s ease-out;
+    -o-transition: transform 0.2s ease-out;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Developer {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.Developer a {
+    color: #703b09;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media only screen and (min-width: 576px) {
+    .SideDrawer {
+        display: none;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+}
+
+.Logo {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

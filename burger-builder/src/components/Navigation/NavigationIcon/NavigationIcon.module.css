@@ -1,0 +1,23 @@
+.NavigationIcon {
+    width: 40px;
+    height: 88%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.NavigationIcon div {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+@media (min-width: 576px) {
+    .NavigationIcon {
+        display: none;
+    }
+}

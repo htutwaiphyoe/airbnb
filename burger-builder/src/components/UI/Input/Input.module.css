@@ -1,0 +1,18 @@
+.Input {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+.InputElement {
+    font-family: inherit;
+    font-size: 1.6rem;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.Invalid {
+    border: 1px solid #e63b3b;
+}

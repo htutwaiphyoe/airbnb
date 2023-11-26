@@ -1,0 +1,17 @@
+.CheckoutForm {
+    width: 95%;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 2rem auto;
+}
+.CheckoutForm h1 {
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width: 600px) {
+    .CheckoutForm {
+        width: 50rem;
+        padding: 2rem;
+    }
+}
